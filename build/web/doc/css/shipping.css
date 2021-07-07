@@ -1,0 +1,242 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    overflow-y: hidden;
+    float: left;
+}
+
+/* The navigation menu links */
+.nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.nav a:hover {
+  color: #f1f1f1;
+}
+.nav2{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+/* Style page content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidebar */
+  padding: 0px 0px;
+  height: 100%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .nav {padding-top: 15px;}
+  .nav a {font-size: 18px;}
+}
+.social{
+    display: flex;
+    margin-top: 110px;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.header {
+    widows: 100%;
+    position: relative;
+    height: 280px;
+}
+
+.header1 {
+    width: 100%;
+    background-size: cover;
+    height: 280px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.head {
+    color: white;
+    position: relative;
+    margin-left: 10px;
+}
+
+#logo{
+    font-size: 30px;
+    color: white;
+}
+#logo:hover{
+    color: #cecfe2;
+    opacity: 0.9;
+}
+#heading{
+    color: white;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 400px;
+}
+.disc{
+    width: 100%;
+    height: 150px;
+    color: rgba(14, 14, 14, 0.856);
+    background-color: rgba(255, 255, 255, 0.897);
+}
+.disc1{
+    margin-left: 10px;
+}
+#two{
+    font-size: 20px;
+}
+#one{
+    font-size: 19px;
+}
+.form{
+    width: 100%;
+    background-color: rgb(17, 110, 197);
+    height: 750px;
+}
+#three{
+    font-size: 25px;
+}
+
+/* Shipping form styles*/
+input[type=text], input[type=email], textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text], input[type=email], textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #555;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: #818181;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: rgb(17, 110, 197);
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+a{
+    text-decoration: none;
+}
+.fleet{
+    width: 100%;
+    height: 120px;
+}
+#fleet{
+    margin-top: 80px;
+}

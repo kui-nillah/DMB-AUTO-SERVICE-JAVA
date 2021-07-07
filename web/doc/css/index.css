@@ -1,0 +1,536 @@
+.nav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 20%;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    overflow-y: hidden;
+    padding-top: 20px;
+    float: left;
+}
+
+/* The navigation menu links */
+.nav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.nav a:hover {
+    color: #f1f1f1;
+}
+.nav2{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+/* Style page content */
+.main {
+    margin-left: 20%;
+    /* Same as the width of the sidebar */
+    padding: 0px 0px;
+    height: 100%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .nav {
+        padding-top: 15px;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+}
+
+.nav2 {
+    margin-top: 120px;
+}
+
+.header {
+    widows: 100%;
+    position: relative;
+    height: 450px;
+}
+
+.header1 {
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.gallery {
+    width: auto;
+}
+
+.askhead {
+    width: auto;
+    height: 30px;
+    background-color: #4d4d4d;
+}
+
+.ask {
+    width: auto;
+    height: 230px;
+    background-color: whitesmoke;
+    position: relative;
+    padding-top: 0px;
+    color: #383838;
+}
+
+.popularhead {
+    margin-top: 0px;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    background-color: 0b7176;
+}
+
+.popular {
+    margin-top: 0px;
+    width: auto;
+    height: 776px;
+    background-color: 0b7176;
+}
+
+#pophead {
+    color: #0b7176;
+}
+
+.footer {
+    width: auto;
+    height: 300px;
+    background-color: #333333;
+    color: white;
+}
+
+.card1 {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: #333333;
+}
+
+.card2 {
+    width: 50%;
+    height: 300px;
+    float: right;
+    background-color: #333333;
+}
+
+.footer1 {
+    width: auto;
+    height: 25px;
+    margin-top: 0px;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.head {
+    color: white;
+    position: relative;
+}
+#logo{
+    font-size: 30px;
+    color: white;
+}
+#logo:hover{
+    color: #cecfe2;
+    opacity: 0.9;
+}
+
+#h1 {
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    margin-top: 400px;
+}
+
+#h2 {
+    font-size: 19px;
+    position: absolute;
+    color: white;
+    margin-top: 400px;
+}
+
+.askh {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.social {
+    display: flex;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#txt {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#txt2 {
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+#ln {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.link a {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #2fa278;
+    color: #2fa278;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#ch1 {
+    margin-left: 20px;
+    margin-top: 130px;
+}
+
+#ch2 {
+    margin-left: 20px;
+    margin-top: -35px;
+}
+
+#ch3 {
+    margin-left: 20px;
+    margin-top: -33px;
+}
+
+.chnav {
+    margin-left: 150px;
+    margin-top: -150px;
+    font-size: 16px;
+}
+
+.chnav a {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    color: white;
+    display: block;
+}
+
+#c2h {
+     margin-right: 150px;
+}
+
+#as1 {
+    font-size: 20px;
+}
+
+#as2 {
+    font-size: 12px;
+    margin-top: -40px;
+}
+
+#label {
+    font-size: 25px;
+    color: white;
+    font-style: bold;
+    position: relative;
+    display: flex;
+
+}
+
+/* SELECTION BOX */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: #f1f1f1;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: black transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent black;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: #f1f1f1;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: #ddd;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=number], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password], input[type=email], input[type=date], input[type=number], textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #555;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #111;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #252424;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+/* Ask question form */
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+  margin: 8px 0px;
+  width: 180px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 150px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 700px;
+  padding: 10px;
+  background-color: #111;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
